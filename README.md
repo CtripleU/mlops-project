@@ -62,13 +62,13 @@ source .devops/bin/activate
 | Directory/File| Description  |
 | ------------- | ------------- |
 | .circleci  | Contains config.yml file for circleci  |
-| model_data  | Showing housing prices in the boston area  |
-| output_txt_files | Showing docker and kubernetes log outputs |
-| app.py | REST endpoint in flask containing containing routes to fetch house prices in boston |
-| Dockerfile | Docker creation files with dependencies |
-| make_predictions.sh | Script to log output predictions from the REST api end point |
+| model_data  | Model data for housing prices  |
+| output_txt_files | Folder containing docker and kubernetes log outputs |
+| app.py | API endpoint in flask |
+| Dockerfile | Dockerfiles for image creation |
+| make_predictions.sh | Script to log output predictions from the endpoint |
 | Makefile | Makefile for installation of project dependencies and lint |
-| requirements.txt | Python dependencies forvproject |
+| requirements.txt | Python dependencies for project |
 | run_docker.sh | Script to build the docker file |
-| run_kuberbetes.sh | Script to run and start up docker image in kubernetes | 
-| upload_docker.sh | Script to upload locally built image to docker hub | 
+| run_kuberbetes.sh | Script to run docker image in kubernetes | 
+| upload_docker.sh | Script to upload docker image to Dockerhub | 
